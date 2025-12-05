@@ -106,7 +106,7 @@ Material:
     - _ZTestDepthEqualForOpaque: 3
     - _ZTestTransparent: 4
     - _ZWrite: 1
-    - _strength: 0.06533385
+    - _strength: 0.041940484
     m_Colors:
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}

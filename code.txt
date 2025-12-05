@@ -1,0 +1,48 @@
+#include <Wire.h>
+
+// MPU6050 I2C 地址
+const int MPU = 0x68;  
+int16_t AcX, AcY, AcZ, GyX, GyY, GyZ;
+
+void setup() {
+  Wire.begin();
+  Serial.begin(9600);
+
+  // 初始化 MPU6050
+  Wire.beginTransmission(MPU);
+  Wire.write(0x6B);  // 寄存器 PWR_MGMT_1
+  Wire.write(0);     // 设置为 0，唤醒 MPU6050
+  Wire.endTransmission(true);
+}
+
+void loop() {
+  // 请求加速度和陀螺仪数据
+  Wire.beginTransmission(MPU);
+  Wire.write(0x3B);  // 起始寄存器地址
+  Wire.endTransmission(false);
+  Wire.requestFrom(MPU, 14, true);  // 请求 14 字节数据
+
+  // 读取加速度数据
+  AcX = Wire.read() << 8 | Wire.read();
+  AcY = Wire.read() << 8 | Wire.read();
+  AcZ = Wire.read() << 8 | Wire.read();
+
+  // 跳过温度数据
+  Wire.read();
+  Wire.read();
+
+  // 读取陀螺仪数据
+  GyX = Wire.read() << 8 | Wire.read();
+  GyY = Wire.read() << 8 | Wire.read();
+  GyZ = Wire.read() << 8 | Wire.read();
+
+  // 打印加速度和陀螺仪数据
+  Serial.print("AcX = "); Serial.print(AcX);
+  Serial.print(" | AcY = "); Serial.print(AcY);
+  Serial.print(" | AcZ = "); Serial.print(AcZ);
+  Serial.print(" | GyX = "); Serial.print(GyX);
+  Serial.print(" | GyY = "); Serial.print(GyY);
+  Serial.print(" | GyZ = "); Serial.println(GyZ);
+
+  delay(50);
+}
