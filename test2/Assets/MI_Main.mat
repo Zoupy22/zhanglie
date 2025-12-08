@@ -23,7 +23,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_New Shader Graph
+  m_Name: MI_Main
   m_Shader: {fileID: -6465566751694194690, guid: 84ff17cee11c37845a2ddd3288a7d0ea,
     type: 3}
   m_Parent: {fileID: 0}
@@ -106,7 +106,8 @@ Material:
     - _ZTestDepthEqualForOpaque: 3
     - _ZTestTransparent: 4
     - _ZWrite: 1
-    - _strength: 0
+    - _ZiBlur: 0
+    - _strength: 0.3
     m_Colors:
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
