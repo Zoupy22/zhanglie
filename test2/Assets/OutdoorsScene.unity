@@ -131,6 +131,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 118977442}
+  - component: {fileID: 118977444}
+  - component: {fileID: 118977443}
   m_Layer: 0
   m_Name: Zi Parent
   m_TagString: Untagged
@@ -155,6 +157,71 @@ Transform:
   - {fileID: 2113486045}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &118977443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 118977441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 79a10b52b306db246b5e1a9c91b7e47f, type: 2}
+--- !u!114 &118977444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 118977441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"ZiList","value":{"$content":[0,1,2,3,4,5,6,7],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"ZiBackList","value":{"$content":[8,9,10,11,12,13,14,15],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Parent1","value":{"$content":16,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Parent2","value":{"$content":17,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Parent","value":{"$content":18,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Ardity
+      Object","value":{"$content":19,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Main
+      Plane","value":{"$content":20,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 1597517737}
+    - {fileID: 961151776}
+    - {fileID: 1734685440}
+    - {fileID: 1406308877}
+    - {fileID: 204298049}
+    - {fileID: 1083432018}
+    - {fileID: 1087277496}
+    - {fileID: 1833327815}
+    - {fileID: 1597517737}
+    - {fileID: 961151776}
+    - {fileID: 1734685440}
+    - {fileID: 1406308877}
+    - {fileID: 204298049}
+    - {fileID: 1083432018}
+    - {fileID: 1087277496}
+    - {fileID: 1833327815}
+    - {fileID: 1442947002}
+    - {fileID: 2113486042}
+    - {fileID: 118977441}
+    - {fileID: 1393284176}
+    - {fileID: 1122591328}
 --- !u!1001 &204298047
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -724,6 +791,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: "\u591A\u9762\u5B571"
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9479c8b5019b4444a81ee5baba8dda8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1464,6 +1536,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\u591A\u9762\u5B573"
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5af2b5d88306b614b913af33b17936be,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1525,7 +1602,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1442947002}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
   m_Name: 
@@ -1698,7 +1775,7 @@ PrefabInstance:
     - target: {fileID: -3887185075125053422, guid: b8bdf6c9832a77c429f190ee52e0b81c,
         type: 3}
       propertyPath: m_BlendShapeWeights.Array.data[0]
-      value: 5
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b8bdf6c9832a77c429f190ee52e0b81c,
         type: 3}
@@ -1834,6 +1911,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: "\u591A\u9762\u5B572"
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a1a002806474ec144a45fb0c3247cb72,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
