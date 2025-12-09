@@ -532,7 +532,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 442273350}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: be49bd66fd503954f845fa7cec773c03, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 14fea2610355a2c4288af846b8d854cc, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -588,7 +588,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clips:
-  - {fileID: 32900000, guid: be49bd66fd503954f845fa7cec773c03, type: 3}
+  - {fileID: 32900000, guid: 14fea2610355a2c4288af846b8d854cc, type: 3}
   - {fileID: 32900000, guid: c851a21b3c54e7244ad81f53d7457c79, type: 3}
   switchKey: 98
   blockFirst: 1
@@ -1134,10 +1134,10 @@ MonoBehaviour:
   videoPlayerA: {fileID: 442273351}
   videoPlayerB: {fileID: 1759183676}
   videoClips:
-  - {fileID: 32900000, guid: be49bd66fd503954f845fa7cec773c03, type: 3}
+  - {fileID: 32900000, guid: 14fea2610355a2c4288af846b8d854cc, type: 3}
   - {fileID: 32900000, guid: 738d1c189fadf0d4a96adb3a9de9093c, type: 3}
   - {fileID: 32900000, guid: c851a21b3c54e7244ad81f53d7457c79, type: 3}
-  - {fileID: 32900000, guid: 65f561283cb07de43b6ceca4bda4e9e6, type: 3}
+  - {fileID: 32900000, guid: 21df648a6e10d774c902546ddccf782c, type: 3}
   switchPlayerB: 1
   indexA: 0
   indexB: 0
@@ -2191,7 +2191,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clips:
   - {fileID: 32900000, guid: 738d1c189fadf0d4a96adb3a9de9093c, type: 3}
-  - {fileID: 32900000, guid: 65f561283cb07de43b6ceca4bda4e9e6, type: 3}
+  - {fileID: 32900000, guid: 21df648a6e10d774c902546ddccf782c, type: 3}
   switchKey: 98
   blockFirst: 0
 --- !u!1 &1823688464
