@@ -45,12 +45,32 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _SampleTexture2D_5c2c0e26a9214ddebd7237cb7c22d807_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 60037ff5ee625e446abc99a87acb1cdb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_6768de03ad1f4a8ba92b58699087556f_Texture_1_Texture2D:
+        m_Texture: {fileID: 8400000, guid: 967e69b5861a18a4fbd07e585918b406, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_6e76f4d1b04d492f952880641523e26b_Texture_1_Texture2D:
         m_Texture: {fileID: 2800000, guid: a435ddea85ff79b4a93b410f930cfda9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_7db8bcc687324e1da6ed20293555506e_Texture_1_Texture2D:
+        m_Texture: {fileID: 8400000, guid: c9b7f428fc69b2942bfc63b3ab96056c, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_7eae6fd41883442c8f23df7a41beee31_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 3342e79434d78424d8e243885d7feba4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_afc1655f0a144092a2e3d4486952e184_Texture_1_Texture2D:
         m_Texture: {fileID: 8400000, guid: 6477380b8b8f2fe4b8d70485150d4e9e, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_b6cec4ffc37b433d9ae9b772ade4804b_Texture_1_Texture2D:
+        m_Texture: {fileID: 8400000, guid: 0a44ec5c2ab20654b9a7d334d921af58, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -71,6 +91,8 @@ Material:
     - _AlphaCutoffEnable: 0
     - _AlphaDstBlend: 0
     - _AlphaSrcBlend: 1
+    - _BackGroundT: 0
+    - _Bj: 0
     - _BlendMode: 0
     - _ConservativeDepthOffsetEnable: 0
     - _CullMode: 2
@@ -83,9 +105,12 @@ Material:
     - _EnableBlendModePreserveSpecularLighting: 0
     - _EnableFogOnTransparent: 1
     - _ExcludeFromTUAndAA: 0
+    - _Float: 2.15
     - _OpaqueCullMode: 2
     - _RenderQueueType: 1
     - _SrcBlend: 1
+    - _Start: 0
+    - _Start2: 0
     - _StencilRef: 0
     - _StencilRefDepth: 1
     - _StencilRefDistortionVec: 4
@@ -107,6 +132,7 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 1
     - _ZiBlur: 0
+    - _ZiScale: 2.32
     - _strength: 0.3
     m_Colors:
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
